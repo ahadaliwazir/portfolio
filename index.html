@@ -4,38 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ahad Ali — Full-Stack Software Engineer & Technical Communicator</title>
-    <meta name="description" content="Portfolio of Ahad Ali — Full-Stack Software Engineer (React, Node.js, PostgreSQL, AI Integration) & Computer Science Graduate (First Class Honors) from IMSciences." />
+    <title>Ahad Ali — Developer</title>
+    <meta name="description" content="Ahad Ali — Full-stack developer from Peshawar. I build web apps, databases, and things people actually use." />
     
-    <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     
-    <!-- FontAwesome for crisp icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <!-- Ambient Background Glows -->
-    <div class="ambient-glow glow-1"></div>
-    <div class="ambient-glow glow-2"></div>
-    <div class="ambient-glow glow-3"></div>
 
     <!-- Navigation -->
     <nav id="navbar">
       <div class="nav-container">
-        <a href="#" class="logo">
-          <span class="logo-accent">A</span>had<span class="logo-dot">.</span>
-        </a>
+        <a href="#" class="logo">ahad<span class="logo-dot">.</span></a>
         <div class="nav-links" id="nav-menu">
+          <a href="#work" class="nav-link">Work</a>
           <a href="#about" class="nav-link">About</a>
-          <a href="#projects" class="nav-link">Projects</a>
-          <a href="#skills" class="nav-link">Skills</a>
           <a href="#experience" class="nav-link">Experience</a>
-          <a href="#education" class="nav-link">Education</a>
-          <a href="#contact" class="btn-primary-sm">Get In Touch</a>
+          <a href="#contact" class="nav-link">Contact</a>
         </div>
         <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
           <i class="fa-solid fa-bars"></i>
@@ -47,457 +36,262 @@
     <header class="hero" id="home">
       <div class="hero-container">
         <div class="hero-content reveal">
+          <p class="hero-greeting">Hi, I'm Ahad —</p>
           <h1 class="hero-title">
-            Engineering <span class="gradient-text">Fast, Scalable</span> & AI-Driven Digital Platforms.
+            I build websites that<br>people actually use.
           </h1>
           
           <p class="hero-subtitle">
-            Hi, I’m <strong>Ahad Ali</strong> — a Full-Stack Software Engineer & Computer Science Graduate (First Class Honors) from IMSciences. I specialize in building high-performance web systems with <strong>React</strong>, <strong>Node.js</strong>, <strong>PostgreSQL</strong>, and <strong>Autonomous AI Agents</strong>.
+            Full-stack developer from Peshawar, Pakistan. I've built and shipped production web apps with real users — from database design to deployment. Currently finishing my CS degree at IMSciences with First Class Honors.
           </p>
 
           <div class="hero-actions">
-            <a href="#projects" class="btn-primary">
-              <span>View Projects</span>
+            <a href="#work" class="btn-primary">
+              <span>See my work</span>
               <i class="fa-solid fa-arrow-down"></i>
             </a>
             <a href="#contact" class="btn-secondary">
-              <span>Contact Me</span>
-              <i class="fa-regular fa-paper-plane"></i>
+              <span>Get in touch</span>
             </a>
           </div>
 
           <div class="social-links-hero">
-            <a href="https://linkedin.com/in/ahad-ali-779659315" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-icon">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
             <a href="https://github.com/ahadaliwazir" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-icon">
               <i class="fa-brands fa-github"></i>
             </a>
-            <a href="mailto:ahadaliwazir@gmail.com" title="Email Ahad" class="social-icon">
+            <a href="https://linkedin.com/in/ahadalidev" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:ahadaliwazir@gmail.com" title="Email" class="social-icon">
               <i class="fa-regular fa-envelope"></i>
             </a>
-          </div>
-        </div>
-
-        <div class="hero-image-wrapper reveal">
-          <div class="hero-image-card tilt">
-            <div class="image-inner">
-              <img src="/profile.jpg" alt="Ahad Ali" class="profile-photo" />
-              <div class="photo-overlay"></div>
-            </div>
-            
-            <div class="floating-badge badge-top">
-              <i class="fa-solid fa-graduation-cap text-amber"></i>
-              <div>
-                <span class="badge-title">First Class Honors</span>
-                <span class="badge-sub">BS Computer Science</span>
-              </div>
-            </div>
-
-            <div class="floating-badge badge-bottom">
-              <i class="fa-solid fa-bolt text-gold"></i>
-              <div>
-                <span class="badge-title">&lt; 1s LCP Speed</span>
-                <span class="badge-sub">High-Performance Web</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Key Metrics Ribbon -->
-    <section class="metrics-ribbon">
-      <div class="metrics-container">
-        <div class="metric-item reveal">
-          <span class="metric-number">4+</span>
-          <span class="metric-label">Production Apps Live</span>
-        </div>
-        <div class="metric-divider"></div>
-        <div class="metric-item reveal">
-          <span class="metric-number">1st Class</span>
-          <span class="metric-label">Honors in CS (IMSciences)</span>
-        </div>
-        <div class="metric-divider"></div>
-        <div class="metric-item reveal">
-          <span class="metric-number">3+</span>
-          <span class="metric-label">Meta Certifications</span>
-        </div>
-        <div class="metric-divider"></div>
-        <div class="metric-item reveal">
-          <span class="metric-number">100%</span>
-          <span class="metric-label">Client Delivery Record</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Main Content Sections -->
     <main>
-      <!-- About & Value Proposition Section -->
-      <section id="about" class="section">
+      <!-- Featured Projects -->
+      <section id="work" class="section">
         <div class="section-container">
           <div class="section-header reveal">
-            <span class="section-tag">WHO I AM</span>
-            <h2 class="section-title">Bridging Technical Rigor with Exceptional User Experience</h2>
-            <p class="section-desc">Passionate about clean architecture, sub-second web speed, and intelligent agent automation.</p>
+            <h2 class="section-title">Things I've built</h2>
+            <p class="section-desc">Real projects, live on the internet, with actual users.</p>
           </div>
 
-          <div class="about-grid">
-            <div class="about-card reveal tilt">
-              <div class="card-icon"><i class="fa-solid fa-code"></i></div>
-              <h3>Full-Stack Engineering</h3>
-              <p>End-to-end web architecture from modular React & TypeScript frontends to resilient Node.js, Express, and PostgreSQL relational backends.</p>
-            </div>
-
-            <div class="about-card reveal tilt">
-              <div class="card-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-              <h3>AI & Automation Pipelines</h3>
-              <p>Building automated workflow pipelines with Google Gemini API, multi-model failover chains, and dynamic content synthesis.</p>
-            </div>
-
-            <div class="about-card reveal tilt">
-              <div class="card-icon"><i class="fa-solid fa-gauge-high"></i></div>
-              <h3>Web Performance & SEO</h3>
-              <p>Specializing in sub-second LCP optimization, asset pre-compression (Brotli/Gzip), cache policies, and technical search engine ranking.</p>
-            </div>
-
-            <div class="about-card reveal tilt">
-              <div class="card-icon"><i class="fa-solid fa-comments"></i></div>
-              <h3>Clear Technical Communication</h3>
-              <p>Fluent in English with a strong track record of cross-functional collaboration, client management, and technical documentation.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Featured Projects Section -->
-      <section id="projects" class="section projects-section">
-        <div class="section-container">
-          <div class="section-header reveal">
-            <span class="section-tag">PORTFOLIO WORK</span>
-            <h2 class="section-title">Featured Projects & Systems</h2>
-            <p class="section-desc">Selected full-stack platforms, client systems, and AI workflows built from the ground up.</p>
-          </div>
-
-          <div class="projects-grid">
-            <!-- Flagship Project: MeriDramaList -->
-            <article class="project-card flagship reveal tilt">
-              <div class="project-badge">🌟 Flagship Project</div>
-              <div class="project-body">
-                <div class="project-header-info">
-                  <div class="project-type-tag">Full-Stack Web App & AI Platform</div>
-                  <h3 class="project-title">MeriDramaList — Media Database & AI Editorial Hub</h3>
-                  <p class="project-description">
-                    A high-performance Pakistani drama media database and listicle platform indexing 400+ titles. Features autonomous Gemini AI editorial listicle generation with auto-failover, live debounced database search, BuzzFeed-style interactive drama cards, and sub-second LCP speed.
-                  </p>
-                  
-                  <div class="project-tech-stack">
-                    <span class="tech-pill">React</span>
-                    <span class="tech-pill">TypeScript</span>
-                    <span class="tech-pill">Node.js</span>
-                    <span class="tech-pill">Express</span>
-                    <span class="tech-pill">PostgreSQL</span>
-                    <span class="tech-pill">Google Gemini AI</span>
-                    <span class="tech-pill">Tailwind CSS</span>
-                    <span class="tech-pill">Vite</span>
-                  </div>
-                </div>
-
-                <div class="project-actions">
-                  <a href="https://meridramalist.com" target="_blank" rel="noopener noreferrer" class="btn-primary-sm">
-                    <span>Live Website</span>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                  </a>
-                  <a href="https://github.com/ahadaliwazir/pakistani-drama-hub" target="_blank" rel="noopener noreferrer" class="btn-outline-sm">
-                    <i class="fa-brands fa-github"></i>
-                    <span>Source Code</span>
-                  </a>
-                </div>
+          <div class="projects-list">
+            
+            <!-- Project 1: MeriDramaList -->
+            <article class="project-card reveal">
+              <div class="project-screenshot">
+                <img src="/screenshots/meridramalist.png" alt="MeriDramaList screenshot" loading="lazy" />
               </div>
-            </article>
-
-            <!-- Project 2: Scale Wise -->
-            <article class="project-card reveal tilt">
-              <div class="project-body">
-                <div class="project-type-tag">AI Agent Platform</div>
-                <h3 class="project-title">Scale Wise</h3>
+              <div class="project-info">
+                <span class="project-label">Full-Stack Web App</span>
+                <h3 class="project-title">MeriDramaList</h3>
                 <p class="project-description">
-                  Contributed frontend engineering for an enterprise AI agent platform, building responsive, stateful interface components and asynchronous workflow controls.
+                  A drama database I built and run — 400+ Pakistani dramas with ratings, episode tracking, cast profiles, and search. I built the whole thing: React frontend, Node/Express API, PostgreSQL database. Also wrote a script that auto-generates weekly Instagram carousel posts from the live data.
                 </p>
-                <div class="project-tech-stack">
-                  <span class="tech-pill">React</span>
-                  <span class="tech-pill">JavaScript</span>
-                  <span class="tech-pill">AI Workflows</span>
-                  <span class="tech-pill">UI/UX Design</span>
+                <div class="project-tech">
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>Node.js</span>
+                  <span>PostgreSQL</span>
+                  <span>Tailwind</span>
                 </div>
-                <div class="project-actions">
-                  <a href="https://scalewise.ai" target="_blank" rel="noopener noreferrer" class="btn-primary-sm">
-                    <span>Live Platform</span>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <div class="project-links">
+                  <a href="https://meridramalist.com" target="_blank" rel="noopener noreferrer" class="project-link-primary">
+                    Live Site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a href="https://github.com/ahadaliwazir/pakistani-drama-hub" target="_blank" rel="noopener noreferrer" class="project-link-secondary">
+                    <i class="fa-brands fa-github"></i> Source
                   </a>
                 </div>
               </div>
             </article>
 
-            <!-- Project 3: AR Web App (Final Year Project) -->
-            <article class="project-card reveal tilt">
-              <div class="project-body">
-                <div class="project-type-tag">Final Year Project • IMSciences</div>
-                <h3 class="project-title">Browser Augmented Reality (AR) App</h3>
-                <p class="project-description">
-                  Interactive browser-based AR application built with React and MySQL, allowing seamless 3D model interaction directly on the web without native app downloads.
-                </p>
-                <div class="project-tech-stack">
-                  <span class="tech-pill">React</span>
-                  <span class="tech-pill">MySQL</span>
-                  <span class="tech-pill">WebAR</span>
-                  <span class="tech-pill">3D Spatial UI</span>
-                </div>
-                <div class="project-actions">
-                  <span class="badge-status">Academic Research & Implementation</span>
-                </div>
+            <!-- Project 2: PawTech -->
+            <article class="project-card reverse reveal">
+              <div class="project-screenshot">
+                <img src="/screenshots/pawtech.png" alt="PawTech screenshot" loading="lazy" />
               </div>
-            </article>
-
-            <!-- Project 4: Provencis -->
-            <article class="project-card reveal tilt">
-              <div class="project-body">
-                <div class="project-type-tag">Client Development</div>
-                <h3 class="project-title">Provencis B2B Platform</h3>
+              <div class="project-info">
+                <span class="project-label">Content Platform</span>
+                <h3 class="project-title">PawTech</h3>
                 <p class="project-description">
-                  Engineered the corporate digital presence for a virtual assistance agency, focusing on mobile-first responsive architecture and rapid first contentful paint (FCP).
+                  A pet tech review site built with Astro — static site generation, content collections with Zod schemas, and SEO baked in from day one. Gets 100/100 on Lighthouse because Astro ships zero JavaScript by default.
                 </p>
-                <div class="project-tech-stack">
-                  <span class="tech-pill">Web Engineering</span>
-                  <span class="tech-pill">Performance Optimization</span>
-                  <span class="tech-pill">Responsive Design</span>
+                <div class="project-tech">
+                  <span>Astro</span>
+                  <span>TypeScript</span>
+                  <span>Tailwind</span>
+                  <span>SEO</span>
                 </div>
-                <div class="project-actions">
-                  <a href="https://provencis.com" target="_blank" rel="noopener noreferrer" class="btn-primary-sm">
-                    <span>Live Site</span>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <div class="project-links">
+                  <a href="https://pawtech.online" target="_blank" rel="noopener noreferrer" class="project-link-primary">
+                    Live Site <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </div>
               </div>
             </article>
 
-            <!-- Project 5: BeautyDupe -->
-            <article class="project-card reveal tilt">
-              <div class="project-body">
-                <div class="project-type-tag">SEO & Content Platform</div>
+            <!-- Project 3: BeautyDupe -->
+            <article class="project-card reveal">
+              <div class="project-screenshot">
+                <img src="/screenshots/beautydupe.png" alt="BeautyDupe screenshot" loading="lazy" />
+              </div>
+              <div class="project-info">
+                <span class="project-label">E-Commerce / Affiliate</span>
                 <h3 class="project-title">BeautyDupe</h3>
                 <p class="project-description">
-                  Content and affiliate review platform with structured schema markup, comparative product filters, and high organic search discoverability.
+                  An affiliate review platform for beauty products — product comparisons, structured data for Google, and content that ranks. Built to monetize through honest product reviews and SEO-driven organic traffic.
                 </p>
-                <div class="project-tech-stack">
-                  <span class="tech-pill">Technical SEO</span>
-                  <span class="tech-pill">Schema Markup</span>
-                  <span class="tech-pill">E-Commerce Architecture</span>
+                <div class="project-tech">
+                  <span>WordPress</span>
+                  <span>SEO</span>
+                  <span>Schema Markup</span>
+                  <span>Affiliate</span>
                 </div>
-                <div class="project-actions">
-                  <a href="https://beautydupe.shop" target="_blank" rel="noopener noreferrer" class="btn-primary-sm">
-                    <span>Live Site</span>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <div class="project-links">
+                  <a href="https://beautydupe.shop" target="_blank" rel="noopener noreferrer" class="project-link-primary">
+                    Live Site <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </div>
               </div>
             </article>
 
-            <!-- Project 6: Stellnime -->
-            <article class="project-card reveal tilt">
-              <div class="project-body">
-                <div class="project-type-tag">No-Code Showcase</div>
-                <h3 class="project-title">Stellnime</h3>
+            <!-- Project 4: Scale Wise -->
+            <article class="project-card reverse reveal">
+              <div class="project-screenshot">
+                <img src="/screenshots/scalewise.png" alt="Scale Wise screenshot" loading="lazy" />
+              </div>
+              <div class="project-info">
+                <span class="project-label">Client Work</span>
+                <h3 class="project-title">Scale Wise</h3>
                 <p class="project-description">
-                  A modern, immersive visual media portfolio showcase designed and built with Webflow, leveraging custom micro-interactions and grid animations.
+                  Frontend development for an AI agent platform. I built responsive UI components, workflow controls, and made sure the interface worked smoothly across devices.
                 </p>
-                <div class="project-tech-stack">
-                  <span class="tech-pill">Webflow</span>
-                  <span class="tech-pill">CSS Grid</span>
-                  <span class="tech-pill">Interaction Design</span>
+                <div class="project-tech">
+                  <span>React</span>
+                  <span>JavaScript</span>
+                  <span>UI/UX</span>
                 </div>
-                <div class="project-actions">
-                  <a href="https://preview.webflow.com/preview/ahads-exceptional-site" target="_blank" rel="noopener noreferrer" class="btn-primary-sm">
-                    <span>View Showcase</span>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <div class="project-links">
+                  <a href="https://scalewise.ai" target="_blank" rel="noopener noreferrer" class="project-link-primary">
+                    Live Site <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </div>
               </div>
             </article>
           </div>
-        </div>
-      </section>
 
-      <!-- Technical Skills Matrix -->
-      <section id="skills" class="section">
-        <div class="section-container">
-          <div class="section-header reveal">
-            <span class="section-tag">CORE COMPETENCIES</span>
-            <h2 class="section-title">Technical Skills & Technologies</h2>
-            <p class="section-desc">Technologies, frameworks, and methodologies I work with daily.</p>
-          </div>
-
-          <div class="skills-grid">
-            <div class="skill-category-card reveal tilt">
-              <div class="category-header">
-                <i class="fa-solid fa-laptop-code text-gold"></i>
-                <h3>Frontend Development</h3>
-              </div>
-              <div class="skill-tags">
-                <span class="skill-tag">React.js</span>
-                <span class="skill-tag">TypeScript</span>
-                <span class="skill-tag">JavaScript (ES6+)</span>
-                <span class="skill-tag">Vite</span>
-                <span class="skill-tag">Tailwind CSS</span>
-                <span class="skill-tag">HTML5 / CSS3</span>
-                <span class="skill-tag">Webflow</span>
-                <span class="skill-tag">Responsive UI/UX</span>
-              </div>
-            </div>
-
-            <div class="skill-category-card reveal tilt">
-              <div class="category-header">
-                <i class="fa-solid fa-server text-gold"></i>
-                <h3>Backend & Databases</h3>
-              </div>
-              <div class="skill-tags">
-                <span class="skill-tag">Node.js</span>
-                <span class="skill-tag">Express.js</span>
-                <span class="skill-tag">PostgreSQL</span>
-                <span class="skill-tag">MySQL</span>
-                <span class="skill-tag">RESTful APIs</span>
-                <span class="skill-tag">Sequelize ORM</span>
-                <span class="skill-tag">Database Migrations</span>
-                <span class="skill-tag">Caching Strategies</span>
-              </div>
-            </div>
-
-            <div class="skill-category-card reveal tilt">
-              <div class="category-header">
-                <i class="fa-solid fa-robot text-gold"></i>
-                <h3>AI & Automation</h3>
-              </div>
-              <div class="skill-tags">
-                <span class="skill-tag">Google Gemini API</span>
-                <span class="skill-tag">AI Agent Workflows</span>
-                <span class="skill-tag">Prompt Engineering</span>
-                <span class="skill-tag">Auto-Failover Pipelines</span>
-                <span class="skill-tag">Web Scraping</span>
-                <span class="skill-tag">Python Scripting</span>
-              </div>
-            </div>
-
-            <div class="skill-category-card reveal tilt">
-              <div class="category-header">
-                <i class="fa-solid fa-rocket text-gold"></i>
-                <h3>DevOps & Performance</h3>
-              </div>
-              <div class="skill-tags">
-                <span class="skill-tag">Git & GitHub</span>
-                <span class="skill-tag">Core Web Vitals (LCP/FID)</span>
-                <span class="skill-tag">Brotli / Gzip Precompression</span>
-                <span class="skill-tag">Edge Caching</span>
-                <span class="skill-tag">Cloud Deployment</span>
-                <span class="skill-tag">Technical SEO</span>
+          <!-- Other Projects -->
+          <div class="other-projects reveal">
+            <h3>Other projects</h3>
+            <div class="other-projects-grid">
+              <a href="https://provencis.com" target="_blank" rel="noopener noreferrer" class="mini-project">
+                <h4>Provencis <i class="fa-solid fa-arrow-up-right-from-square"></i></h4>
+                <p>Corporate website for a virtual assistance agency. Clean layout, fast load times.</p>
+                <span class="mini-tech">HTML · CSS · JavaScript</span>
+              </a>
+              <div class="mini-project">
+                <h4>AR Web App</h4>
+                <p>Final year project at IMSciences — browser-based augmented reality with React and MySQL.</p>
+                <span class="mini-tech">React · MySQL · WebAR</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Work Experience & Education Timeline -->
-      <section id="experience" class="section timeline-section">
+      <!-- About Section -->
+      <section id="about" class="section">
         <div class="section-container">
-          <div class="timeline-dual-grid">
-            <!-- Experience Column -->
-            <div class="timeline-column">
-              <div class="section-header-left reveal">
-                <span class="section-tag">CAREER PATH</span>
-                <h2 class="section-title-sm"><i class="fa-solid fa-briefcase"></i> Work Experience</h2>
-              </div>
+          <div class="about-layout reveal">
+            <div class="about-text">
+              <h2 class="section-title">About me</h2>
+              <p>
+                I'm a developer who likes building things from scratch. I enjoy the full process — figuring out the database schema, writing the API, building the frontend, and deploying it somewhere real people can use it.
+              </p>
+              <p>
+                Most of my work is in <strong>React</strong> and <strong>Node.js</strong>, but I've also built things with Astro, Flutter, WordPress, and Python. I care about making things fast and keeping code simple enough that I can come back to it months later and still understand it.
+              </p>
+              <p>
+                Outside of code, I play guitar and watch way too many Pakistani dramas (which is how MeriDramaList happened).
+              </p>
 
-              <div class="timeline-items">
-                <div class="timeline-item reveal">
-                  <div class="timeline-dot"></div>
-                  <div class="timeline-content">
-                    <span class="timeline-date">Jan 2025 — Present</span>
-                    <h3 class="timeline-title">Full-Stack Web Developer & Consultant</h3>
-                    <p class="timeline-company">Self-Employed • Remote</p>
-                    <ul class="timeline-bullets">
-                      <li>Delivered and maintained custom web applications and client websites for businesses including Premier Staff, Echelon Growth, and Azlaan Academy.</li>
-                      <li>Optimized site performance, core web vitals, and mobile responsiveness, sustaining long-term client relationships.</li>
-                      <li>Designed and architected end-to-end full-stack systems from database design to production cloud deployment.</li>
-                    </ul>
-                  </div>
+              <div class="skills-list">
+                <div class="skill-group">
+                  <h4>Languages</h4>
+                  <p>JavaScript, TypeScript, Python, HTML/CSS, SQL, Dart</p>
                 </div>
-
-                <div class="timeline-item reveal">
-                  <div class="timeline-dot"></div>
-                  <div class="timeline-content">
-                    <span class="timeline-date">Jan 2026 — Mar 2026</span>
-                    <h3 class="timeline-title">Web Developer Intern</h3>
-                    <p class="timeline-company">Zeruimai • Peshawar, Pakistan</p>
-                    <ul class="timeline-bullets">
-                      <li>Built and optimized responsive site structures using HTML, CSS, and modern JavaScript.</li>
-                      <li>Applied professional software engineering practices, cross-browser compatibility testing, and collaborative Git workflows.</li>
-                    </ul>
-                  </div>
+                <div class="skill-group">
+                  <h4>Frameworks</h4>
+                  <p>React, Node.js, Express, Astro, Flutter, Tailwind CSS, Vite</p>
+                </div>
+                <div class="skill-group">
+                  <h4>Tools</h4>
+                  <p>PostgreSQL, MySQL, Git, Vercel, Railway, Supabase, WordPress</p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <!-- Education & Certifications Column -->
-            <div class="timeline-column" id="education">
-              <div class="section-header-left reveal">
-                <span class="section-tag">ACADEMIC & HONORS</span>
-                <h2 class="section-title-sm"><i class="fa-solid fa-graduation-cap"></i> Education & Certifications</h2>
+      <!-- Experience & Education -->
+      <section id="experience" class="section">
+        <div class="section-container">
+          <h2 class="section-title reveal">Where I've worked & studied</h2>
+          
+          <div class="timeline reveal">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Jan 2025 — Present</span>
+                <h3>Freelance Web Developer</h3>
+                <p class="timeline-place">Self-Employed · Remote</p>
+                <ul>
+                  <li>Built and maintained websites for clients including Premier Staff, Echelon Growth, and Azlaan Academy</li>
+                  <li>Handled everything from design to deployment, with ongoing maintenance and support</li>
+                </ul>
               </div>
+            </div>
 
-              <div class="timeline-items">
-                <!-- University Degree -->
-                <div class="timeline-item reveal">
-                  <div class="timeline-dot dot-gold"></div>
-                  <div class="timeline-content highlight-box">
-                    <span class="timeline-date">Sept 2022 — Sept 2026 (Exp.)</span>
-                    <h3 class="timeline-title">Bachelor of Science in Computer Science</h3>
-                    <p class="timeline-company">Institute of Management Sciences (IMSciences) • Peshawar</p>
-                    <div class="honors-badge"><i class="fa-solid fa-award"></i> First Class Honors</div>
-                    <p class="timeline-desc">
-                      <strong>Relevant Modules:</strong> Data Structures & Algorithms, Object-Oriented Programming, Operating Systems, Computer Communication & Networks, Artificial Intelligence & Machine Learning, Web Engineering.
-                    </p>
-                  </div>
-                </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Jan 2026 — Mar 2026</span>
+                <h3>Web Developer Intern</h3>
+                <p class="timeline-place">Ziriumai · Peshawar</p>
+                <ul>
+                  <li>Built responsive site structures with HTML, CSS, and JavaScript</li>
+                  <li>Worked with Git and followed professional coding standards in a team environment</li>
+                </ul>
+              </div>
+            </div>
 
-                <!-- Certifications -->
-                <div class="timeline-item reveal">
-                  <div class="timeline-dot"></div>
-                  <div class="timeline-content">
-                    <span class="timeline-date">Professional Credentials</span>
-                    <h3 class="timeline-title">Industry Certifications</h3>
-                    <ul class="cert-list">
-                      <li>
-                        <i class="fa-brands fa-meta text-blue"></i>
-                        <span><strong>Meta:</strong> Front-End Development Specialization</span>
-                      </li>
-                      <li>
-                        <i class="fa-brands fa-meta text-blue"></i>
-                        <span><strong>Meta:</strong> Programming with JavaScript</span>
-                      </li>
-                      <li>
-                        <i class="fa-brands fa-meta text-blue"></i>
-                        <span><strong>Meta:</strong> Database Structures & MySQL</span>
-                      </li>
-                      <li>
-                        <i class="fa-brands fa-google text-gold"></i>
-                        <span><strong>Google:</strong> Fundamentals of Digital Marketing</span>
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-certificate text-purple"></i>
-                        <span><strong>Coursera:</strong> Create No-Code Responsive Web Apps</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+            <div class="timeline-item">
+              <div class="timeline-marker education"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Sept 2022 — Sept 2026</span>
+                <h3>BS Computer Science <span class="honors-tag">First Class Honors</span></h3>
+                <p class="timeline-place">Institute of Management Sciences (IMSciences) · Peshawar</p>
+                <p class="timeline-modules">Data Structures, OOP, Operating Systems, Networks, Machine Learning, AI, Web Engineering</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">Certifications</span>
+                <h3>Industry Credentials</h3>
+                <ul class="cert-list">
+                  <li>Front-End Development — Meta (Coursera)</li>
+                  <li>Programming with JavaScript — Meta (Coursera)</li>
+                  <li>Database Structures & MySQL — Meta (Coursera)</li>
+                  <li>Fundamentals of Digital Marketing — Google</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -505,72 +299,34 @@
       </section>
 
       <!-- Contact Section -->
-      <section id="contact" class="section contact-section">
+      <section id="contact" class="section">
         <div class="section-container">
-          <div class="contact-card reveal">
-            <div class="contact-header">
-              <span class="section-tag">LET'S CONNECT</span>
-              <h2 class="contact-title">Have a project or opportunity in mind?</h2>
-              <p class="contact-desc">
-                I am currently open to Full-Stack Software Engineering roles, collaborative projects, and freelance consulting.
-              </p>
-            </div>
-
-            <div class="contact-methods">
-              <div class="contact-method-card">
-                <i class="fa-regular fa-envelope"></i>
-                <div>
-                  <span class="method-label">Direct Email</span>
-                  <a href="mailto:ahadaliwazir@gmail.com" class="method-link">ahadaliwazir@gmail.com</a>
-                </div>
-                <button class="btn-copy" id="copy-email-btn" title="Copy Email to Clipboard">
-                  <i class="fa-regular fa-copy"></i>
-                </button>
-              </div>
-
-              <div class="contact-method-card">
-                <i class="fa-brands fa-linkedin-in"></i>
-                <div>
-                  <span class="method-label">LinkedIn</span>
-                  <a href="https://linkedin.com/in/ahad-ali-779659315" target="_blank" rel="noopener noreferrer" class="method-link">linkedin.com/in/ahad-ali</a>
-                </div>
-              </div>
-
-              <div class="contact-method-card">
-                <i class="fa-brands fa-github"></i>
-                <div>
-                  <span class="method-label">GitHub</span>
-                  <a href="https://github.com/ahadaliwazir" target="_blank" rel="noopener noreferrer" class="method-link">github.com/ahadaliwazir</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="contact-cta">
+          <div class="contact-block reveal">
+            <h2 class="section-title">Let's work together</h2>
+            <p class="contact-desc">
+              I'm looking for full-time opportunities and open to freelance work. If you have a project or role in mind, I'd love to hear about it.
+            </p>
+            
+            <div class="contact-links">
               <a href="mailto:ahadaliwazir@gmail.com" class="btn-primary">
-                <span>Send Email</span>
-                <i class="fa-solid fa-paper-plane"></i>
+                <i class="fa-regular fa-envelope"></i>
+                <span>ahadaliwazir@gmail.com</span>
               </a>
+              <div class="contact-socials">
+                <a href="https://github.com/ahadaliwazir" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/ahadalidev" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <!-- Footer -->
     <footer>
       <div class="footer-container">
-        <p>&copy; 2026 Ahad Ali. Built with precision, performance, and pure dedication.</p>
-        <div class="footer-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </div>
+        <p>Built by Ahad Ali · 2026</p>
       </div>
     </footer>
-
-    <!-- Toast Notification Container -->
-    <div id="toast" class="toast">Email copied to clipboard!</div>
 
     <script type="module" src="./main.js"></script>
   </body>
